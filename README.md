@@ -24,7 +24,7 @@ These scripts should cover a lot of what you need but will not likely match your
 
 *Note: The one-click links use the following format.  When working out of a different Fork or Branch you'll want to update the links as follows:*
 
-`http://boxstarter.org/package/url?https://raw.githubusercontent.com/GITHUB_DOMAIN/windows-development-environment/YOUR_BRANCH/Main.ps1
+`http://boxstarter.org/package/url?https://raw.githubusercontent.com/GITHUB_DOMAIN/Windows-Development-Setup/YOUR_BRANCH/Main.ps1
 `
 
 For more info on testing your changes take a look at the [contribution guidelines](CONTRIBUTING.md).
@@ -36,7 +36,7 @@ To run a recipe script, click a link in the table below from your target machine
 
 |Click link to run  |Description  |
 |---------|---------|
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/naqushab/windows-development-environment/master/Main.ps1'>Full Desktop App</a>     | Windows Development |
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/naqushab/Windows-Development-Setup/master/Main.ps1'>Full Desktop App</a>     | Windows Development |
 |     | Submit a PR with a recommended configuration!        |
 
 **Notes:**  
