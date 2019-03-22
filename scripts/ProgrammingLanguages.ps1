@@ -1,10 +1,10 @@
 # Install programming languages
 $toolsList = @(
-    "python3 --version 3.6.6"
+    "python3"
     "pip"
     "python2"
     "javaruntime"
-    "java.jdk"
+    "jdk8"
 );
 
 foreach ($tool in $toolsList) {

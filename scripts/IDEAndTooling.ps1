@@ -2,10 +2,11 @@
 $toolsList = @(
     "vscode"
     "notepadplusplus.install"
+    "sublimetext3"
     "git --params '/GitAndUnixToolsOnPath /WindowsTerminal'"
-    "poshgit"
     "git-credential-winstore"
     "github"
+    "github-desktop"
     "Git-Credential-Manager-for-Windows"
     "p4v"
 );

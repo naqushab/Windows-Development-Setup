@@ -11,6 +11,12 @@ $toolsList = @(
     "awstools.powershell"
     "lockhunter"
     "ditto"
+    "conemu"
+    "clink"
+    "slack"
+    "everything"
+    "winmerge"
+    "lightshot"
 );
 
 foreach ($tool in $toolsList) {
