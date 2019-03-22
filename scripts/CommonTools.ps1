@@ -10,6 +10,7 @@ $toolsList = @(
     "awscli"
     "awstools.powershell"
     "lockhunter"
+    "ditto"
 );
 
 foreach ($tool in $toolsList) {
