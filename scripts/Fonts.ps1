@@ -1,4 +1,12 @@
 # install fonts
-choco install -y inconsolata
-choco install -y firacode # See https://www.youtube.com/watch?v=KI6m_B1f8jc
-choco install -y SourceCodePro
+
+$toolsList = @(
+    "inconsolata"
+    "firacode"
+    "SourceCodePro"
+);
+
+foreach ($tool in $toolsList) {
+	choco install -y $tool
+	Update-SessionEnvironment
+}

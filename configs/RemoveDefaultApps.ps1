@@ -62,3 +62,5 @@ $applicationList = @(
 foreach ($app in $applicationList) {
     removeApp $app
 }
+
+if (Test-PendingReboot) { Invoke-Reboot }

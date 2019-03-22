@@ -27,3 +27,6 @@ Block-Ad 'ads.pubmatic.com'
 Block-Ad 'spclient.wg.spotify.com'
 
 ipconfig /flushdns
+
+Update-SessionEnvironment
+if (Test-PendingReboot) { Invoke-Reboot }

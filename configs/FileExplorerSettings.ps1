@@ -29,3 +29,6 @@ Set-ItemProperty -Path "HKCU:\System\GameConfigStore" -Name GameDVR_Enabled -Typ
 # Enable God Mode
 $DesktopPath = [Environment]::GetFolderPath("Desktop");
 mkdir "$DesktopPath\GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"
+
+Update-SessionEnvironment
+if (Test-PendingReboot) { Invoke-Reboot }

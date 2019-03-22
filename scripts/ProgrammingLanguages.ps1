@@ -1,12 +1,18 @@
 # Install programming languages
-choco install -y python --version 3.6.6
-choco install -y pip
-choco install -y python2
-choco install -y javaruntime
-choco install -y java.jdk
+$toolsList = @(
+    "python3 --version 3.6.6"
+    "pip"
+    "python2"
+    "javaruntime"
+    "java.jdk"
+);
 
-# Refresh path
-refreshenv
+foreach ($tool in $toolsList) {
+	choco install -y $tool
+	Update-SessionEnvironment
+}
 
 # Update pip
 python -m pip install --upgrade pip
+
+if (Test-PendingReboot) { Invoke-Reboot }

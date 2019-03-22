@@ -30,23 +30,23 @@ function executeConfig {
 }
 
 $scriptsList = @(
+	"Fonts.ps1"
 	"Browsers.ps1"
 	"CommonTools.ps1"
-	"Docker.ps1"
-	"Fonts.ps1"
-	"HyperV.ps1"
 	"IDEAndTooling.ps1"
 	"ProgrammingLanguages.ps1"
+	"HyperV.ps1"
 	"WSL.ps1"
+	"Docker.ps1"
 );
 
 $configsList = @(
 	"Adblock.ps1"
-	"FileExplorerSettings.ps1"
-	"Git.ps1"
 	"RemoveDefaultApps.ps1"
 	"SystemConfiguration.ps1"
 	"TaskBar.ps1"
+	"FileExplorerSettings.ps1"
+	"Git.ps1"
 	"VSCode.ps1"
 );
 
