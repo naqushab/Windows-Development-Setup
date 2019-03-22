@@ -1,5 +1,5 @@
 if (Test-PendingReboot) { Invoke-Reboot }
-choco install -y Microsoft-Windows-Subsystem-Linux --source="'windowsfeatures'"
+choco install -y Microsoft-Windows-Subsystem-Linux -source windowsFeatures
 RefreshEnv
 if (Test-PendingReboot) { Invoke-Reboot }
 #--- Ubuntu ---

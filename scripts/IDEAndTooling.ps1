@@ -2,7 +2,7 @@
 $toolsList = @(
     "vscode"
     "notepadplusplus.install"
-    "git --package-parameters="'/GitAndUnixToolsOnPath /WindowsTerminal'""
+    "git --params '/GitAndUnixToolsOnPath /WindowsTerminal'"
     "poshgit"
     "git-credential-winstore"
     "github"
