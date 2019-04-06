@@ -3,8 +3,7 @@ $toolsList = @(
     "python3"
     "pip"
     "python2"
-    "javaruntime"
-    "jdk8"
+    "javaruntime" 
 );
 
 foreach ($tool in $toolsList) {

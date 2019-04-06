@@ -1,7 +1,6 @@
 #--- Browsers ---
 $toolsList = @(
     "googlechrome"
-    "firefox"
 );
 
 foreach ($tool in $toolsList) {

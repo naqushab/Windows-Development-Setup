@@ -36,7 +36,7 @@ To run a recipe script, click a link in the table below from your target machine
 
 |Click link to run  |Description  |
 |---------|---------|
-|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/naqushab/Windows-Development-Setup/master/Main.ps1'>Full Development Environment</a>     | Windows Development |
+|<a href='http://boxstarter.org/package/url?https://raw.githubusercontent.com/naqushab/Windows-Development-Setup/vm/Main.ps1'>Full Development Environment</a>     | Windows Development |
 |     | Submit a PR with a recommended configuration!        |
 
 **Notes:**  

@@ -35,9 +35,7 @@ $scriptsList = @(
 	"CommonTools.ps1"
 	"IDEAndTooling.ps1"
 	"ProgrammingLanguages.ps1"
-	"HyperV.ps1"
 	"WSL.ps1"
-	"Docker.ps1"
 );
 
 $configsList = @(
@@ -47,7 +45,6 @@ $configsList = @(
 	"TaskBar.ps1"
 	"FileExplorerSettings.ps1"
 	"Git.ps1"
-	"VSCode.ps1"
 );
 
 #--- Setting up Windows ---

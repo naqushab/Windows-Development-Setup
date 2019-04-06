@@ -1,6 +1,5 @@
 # Using vscode as a default IDE
 $toolsList = @(
-    "vscode"
     "notepadplusplus.install"
     "sublimetext3"
     "git --params '/GitAndUnixToolsOnPath /WindowsTerminal'"

@@ -13,10 +13,6 @@ $toolsList = @(
     "ditto"
     "conemu"
     "clink"
-    "slack"
-    "everything"
-    "winmerge"
-    "lightshot"
 );
 
 foreach ($tool in $toolsList) {
