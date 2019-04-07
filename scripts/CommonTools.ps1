@@ -2,6 +2,7 @@
 $toolsList = @(
     "7zip.install"
     "sysinternals"
+    "bitvise-ssh-client"
     "putty"
     "ccleaner"
     "procexp"
