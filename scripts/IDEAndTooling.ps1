@@ -4,8 +4,6 @@ $toolsList = @(
     "notepadplusplus.install"
     "sublimetext3"
     "git --params '/GitAndUnixToolsOnPath /WindowsTerminal'"
-    "git-credential-winstore"
-    "github"
     "github-desktop"
     "Git-Credential-Manager-for-Windows"
     "p4v"
